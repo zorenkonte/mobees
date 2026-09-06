@@ -27,12 +27,13 @@ private data class SavedTitle(
     val year: String? = null,
     val rating: Double = 0.0,
     val voteCount: Int = 0,
+    val imdbId: String? = null,
 ) {
-    fun toSummary() = TitleSummary(id, mediaType, name, overview, posterUrl, backdropUrl, year, rating, voteCount)
+    fun toSummary() = TitleSummary(id, mediaType, name, overview, posterUrl, backdropUrl, year, rating, voteCount, imdbId)
 
     companion object {
         fun from(s: TitleSummary) =
-            SavedTitle(s.id, s.mediaType, s.name, s.overview, s.posterUrl, s.backdropUrl, s.year, s.rating, s.voteCount)
+            SavedTitle(s.id, s.mediaType, s.name, s.overview, s.posterUrl, s.backdropUrl, s.year, s.rating, s.voteCount, s.imdbId)
     }
 }
 

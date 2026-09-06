@@ -49,6 +49,7 @@ class TmdbMappingTest {
              "release_date":"2008-07-16","vote_average":8.5,"vote_count":100,
              "genres":[{"id":28,"name":"Action"}],
              "belongs_to_collection":{"id":263,"name":"The Dark Knight Collection"},
+             "external_ids":{"imdb_id":"tt0468569","wikidata_id":"Q163872"},
              "credits":{"cast":[{"id":1,"name":"Christian Bale","character":"Bruce Wayne","order":0}],
                         "crew":[{"id":2,"name":"Christopher Nolan","job":"Director"},{"id":3,"name":"Someone","job":"Producer"}]},
              "similar":{"page":1,"results":[{"id":9,"title":"Sim","vote_average":7.0,"vote_count":5},{"id":10,"title":"NoVotes","vote_count":0}]}}
@@ -63,6 +64,7 @@ class TmdbMappingTest {
         )
         val detail = movie.toMovieDetail(collection)
         assertEquals(152, detail.runtimeMinutes)
+        assertEquals("tt0468569", detail.summary.imdbId)
         assertEquals(listOf("Christopher Nolan"), detail.directors)
         assertEquals("Bruce Wayne", detail.cast.single().character)
         assertEquals(listOf("Batman Begins", "The Dark Knight", "The Dark Knight Rises"), detail.franchise!!.entries.map { it.title })
@@ -77,7 +79,7 @@ class TmdbMappingTest {
             """{"id":1396,"name":"Breaking Bad","first_air_date":"2008-01-20","last_air_date":"2013-09-29","status":"Ended",
                 "vote_average":8.9,"vote_count":1000,"episode_run_time":[47],
                 "seasons":[{"season_number":0,"episode_count":3},{"season_number":1,"episode_count":7}],
-                "created_by":[{"id":1,"name":"Vince Gilligan"}],"networks":[{"id":1,"name":"AMC"}]}""",
+                "created_by":[{"id":1,"name":"Vince Gilligan"}],"networks":[{"id":1,"name":"AMC"}],"external_ids":{"imdb_id":"tt0903747"}}""",
         )
         val season = json.decodeFromString(
             SeasonDto.serializer(),
@@ -88,11 +90,13 @@ class TmdbMappingTest {
         ).toSeason()
         val detail = tv.toTvDetail(listOf(season))
         assertEquals(47, detail.episodeRuntimeMinutes)
+        assertEquals("tt0903747", detail.summary.imdbId)
         assertEquals(listOf("Vince Gilligan"), detail.creators)
         assertEquals(3, detail.episodeCount)
         assertEquals(listOf(1, 2, 3), season.episodes.map { it.episodeNumber })
         assertEquals("Episode 3", season.episodes[2].name)
         assertTrue(!season.episodes[2].isRated)
+        assertTrue(season.episodes[0].isRated)
         assertEquals("https://image.tmdb.org/t/p/w300/s.jpg", season.episodes[0].stillUrl)
     }
 }

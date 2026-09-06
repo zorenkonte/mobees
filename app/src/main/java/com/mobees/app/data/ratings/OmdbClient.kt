@@ -1,4 +1,4 @@
-package com.mobees.app.data.remote
+package com.mobees.app.data.ratings
 
 import kotlinx.serialization.json.Json
 import okhttp3.Interceptor
@@ -9,8 +9,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.kotlinx.serialization.asConverterFactory
 import java.util.concurrent.TimeUnit
 
-object TmdbClient {
-    const val BASE_URL = "https://api.themoviedb.org/3/"
+object OmdbClient {
+    const val BASE_URL = "https://www.omdbapi.com/"
 
     val json: Json = Json {
         ignoreUnknownKeys = true
@@ -19,24 +19,15 @@ object TmdbClient {
         explicitNulls = false
     }
 
-    /**
-     * Builds the TMDB API. Both v3 API keys (query parameter) and v4 read access tokens
-     * (bearer header, they start with "eyJ") are supported.
-     */
     fun create(
         apiKey: String,
         enableLogging: Boolean = false,
         interceptors: List<Interceptor> = emptyList(),
-    ): TmdbApi {
+    ): OmdbApi {
         val auth = Interceptor { chain ->
             val request = chain.request()
-            val authorised = if (apiKey.startsWith("eyJ")) {
-                request.newBuilder().header("Authorization", "Bearer $apiKey").build()
-            } else {
-                val url = request.url.newBuilder().addQueryParameter("api_key", apiKey).build()
-                request.newBuilder().url(url).build()
-            }
-            chain.proceed(authorised)
+            val url = request.url.newBuilder().addQueryParameter("apikey", apiKey).build()
+            chain.proceed(request.newBuilder().url(url).build())
         }
         val client = OkHttpClient.Builder()
             .connectTimeout(20, TimeUnit.SECONDS)
@@ -54,6 +45,6 @@ object TmdbClient {
             .client(client)
             .addConverterFactory(json.asConverterFactory("application/json; charset=UTF-8".toMediaType()))
             .build()
-            .create(TmdbApi::class.java)
+            .create(OmdbApi::class.java)
     }
 }

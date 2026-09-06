@@ -2,6 +2,9 @@ package com.mobees.app.data.model
 
 enum class MediaType { MOVIE, TV }
 
+/** Where a rating value came from. */
+enum class RatingSource(val label: String) { TMDB("TMDB"), IMDB("IMDb") }
+
 /** Lightweight representation used in lists, carousels and search results. */
 data class TitleSummary(
     val id: Int,
@@ -13,6 +16,8 @@ data class TitleSummary(
     val year: String?,
     val rating: Double,
     val voteCount: Int,
+    val imdbId: String? = null,
+    val ratingSource: RatingSource = RatingSource.TMDB,
 )
 
 data class Genre(val id: Int, val name: String)
@@ -30,6 +35,7 @@ data class FranchiseEntry(
     val year: String?,
     val rating: Double,
     val isCurrent: Boolean,
+    val ratingSource: RatingSource = RatingSource.TMDB,
 )
 
 data class Franchise(val name: String, val entries: List<FranchiseEntry>)
@@ -44,6 +50,8 @@ data class MovieDetail(
     val directors: List<String>,
     val franchise: Franchise?,
     val similar: List<TitleSummary>,
+    /** TMDB rating kept for like-for-like comparisons even when the summary shows IMDb. */
+    val tmdbRating: Double = summary.rating,
 )
 
 data class Episode(
@@ -55,9 +63,10 @@ data class Episode(
     val rating: Double,
     val voteCount: Int,
     val stillUrl: String?,
+    val ratingSource: RatingSource = RatingSource.TMDB,
 ) {
     val code: String get() = "S%02dE%02d".format(seasonNumber, episodeNumber)
-    val isRated: Boolean get() = rating > 0.0 && voteCount > 0
+    val isRated: Boolean get() = rating > 0.0
 }
 
 data class Season(

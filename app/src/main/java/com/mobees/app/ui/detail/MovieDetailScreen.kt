@@ -25,6 +25,7 @@ import com.mobees.app.ui.charts.RatingLineChart
 import com.mobees.app.ui.components.CastRow
 import com.mobees.app.ui.components.ErrorState
 import com.mobees.app.ui.components.ExpandableText
+import com.mobees.app.ui.components.InfoBanner
 import com.mobees.app.ui.components.LoadingState
 import com.mobees.app.ui.components.SectionHeader
 import com.mobees.app.ui.containerViewModel
@@ -36,16 +37,18 @@ fun MovieDetailScreen(
     onOpenTitle: (TitleSummary) -> Unit,
 ) {
     val viewModel = containerViewModel(key = "movie-$movieId") {
-        MovieDetailViewModel(movieId, it.repository, it.savedTitles)
+        MovieDetailViewModel(movieId, it.ratedRepository, it.savedTitles)
     }
     val state by viewModel.state.collectAsStateWithLifecycle()
     val isSaved by viewModel.isSaved.collectAsStateWithLifecycle()
+    val notice by viewModel.notice.collectAsStateWithLifecycle()
 
     when (val s = state) {
         UiState.Loading -> LoadingState()
         is UiState.Error -> ErrorState(s.message, onRetry = viewModel::load)
         is UiState.Success -> MovieDetailContent(
             movie = s.data,
+            notice = notice,
             isSaved = isSaved,
             onBack = onBack,
             onToggleSaved = { viewModel.toggleSaved(s.data.summary) },
@@ -57,6 +60,7 @@ fun MovieDetailScreen(
 @Composable
 private fun MovieDetailContent(
     movie: MovieDetail,
+    notice: String?,
     isSaved: Boolean,
     onBack: () -> Unit,
     onToggleSaved: () -> Unit,
@@ -81,6 +85,10 @@ private fun MovieDetailContent(
             onToggleSaved = onToggleSaved,
         )
         Column(Modifier.offset(y = (-40).dp)) {
+            if (notice != null) {
+                InfoBanner(notice, Modifier.padding(horizontal = 20.dp))
+                Spacer(Modifier.height(20.dp))
+            }
             if (movie.summary.overview.isNotBlank()) {
                 SectionHeader("Overview")
                 Spacer(Modifier.height(8.dp))
@@ -100,7 +108,7 @@ private fun MovieDetailContent(
             if (franchise != null && franchise.entries.size > 1) {
                 SectionCard(
                     title = "Franchise graph",
-                    subtitle = "${franchise.name} · ratings in release order",
+                    subtitle = "${franchise.name} · TMDB ratings in release order",
                 ) {
                     RatingLineChart(
                         points = franchise.entries.map { e ->
@@ -112,10 +120,10 @@ private fun MovieDetailContent(
             } else if (movie.similar.isNotEmpty()) {
                 SectionCard(
                     title = "How it compares",
-                    subtitle = "Rating against similar titles",
+                    subtitle = "TMDB ratings against similar titles",
                 ) {
                     val points = listOf(
-                        ChartPoint(movie.summary.name, movie.summary.year, movie.summary.rating, highlighted = true),
+                        ChartPoint(movie.summary.name, movie.summary.year, movie.tmdbRating, highlighted = true),
                     ) + movie.similar.take(6).map { ChartPoint(it.name, it.year, it.rating) }
                     RatingBarChart(points.sortedByDescending { it.value })
                 }

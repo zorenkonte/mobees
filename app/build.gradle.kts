@@ -20,6 +20,7 @@ fun secret(name: String): String =
         ?: ""
 
 val tmdbApiKey = secret("TMDB_API_KEY")
+val omdbApiKey = secret("OMDB_API_KEY")
 val keystorePath = secret("KEYSTORE_PATH")
 val hasReleaseKeystore = keystorePath.isNotBlank() && rootProject.file(keystorePath).exists()
 
@@ -35,6 +36,7 @@ android {
         versionName = "1.0.0"
 
         buildConfigField("String", "TMDB_API_KEY", "\"$tmdbApiKey\"")
+        buildConfigField("String", "OMDB_API_KEY", "\"$omdbApiKey\"")
         vectorDrawables { useSupportLibrary = true }
     }
 

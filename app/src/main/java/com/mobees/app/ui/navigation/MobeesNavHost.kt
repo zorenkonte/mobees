@@ -33,6 +33,8 @@ import com.mobees.app.ui.detail.TvDetailScreen
 import com.mobees.app.ui.home.HomeScreen
 import com.mobees.app.ui.saved.SavedScreen
 import com.mobees.app.ui.search.SearchScreen
+import com.mobees.app.ui.settings.SettingsScreen
+import com.mobees.app.ui.status.StatusScreen
 
 object Routes {
     const val HOME = "home"
@@ -40,6 +42,8 @@ object Routes {
     const val SAVED = "saved"
     const val MOVIE = "movie/{id}"
     const val TV = "tv/{id}"
+    const val SETTINGS = "settings"
+    const val STATUS = "status"
 
     fun movie(id: Int) = "movie/$id"
     fun tv(id: Int) = "tv/$id"
@@ -108,6 +112,8 @@ fun MobeesApp(navController: NavHostController = rememberNavController()) {
                 HomeScreen(
                     onOpenTitle = openTitle,
                     onOpenSearch = { navController.navigate(Routes.SEARCH) { launchSingleTop = true } },
+                    onOpenSettings = { navController.navigate(Routes.SETTINGS) { launchSingleTop = true } },
+                    onOpenStatus = { navController.navigate(Routes.STATUS) { launchSingleTop = true } },
                     contentPadding = padding,
                 )
             }
@@ -116,6 +122,15 @@ fun MobeesApp(navController: NavHostController = rememberNavController()) {
             }
             composable(Routes.SAVED) {
                 SavedScreen(onOpenTitle = openTitle, contentPadding = padding)
+            }
+            composable(Routes.SETTINGS) {
+                SettingsScreen(
+                    onBack = { navController.popBackStack() },
+                    onOpenStatus = { navController.navigate(Routes.STATUS) { launchSingleTop = true } },
+                )
+            }
+            composable(Routes.STATUS) {
+                StatusScreen(onBack = { navController.popBackStack() })
             }
             composable(
                 Routes.MOVIE,

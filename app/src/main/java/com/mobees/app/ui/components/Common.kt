@@ -42,6 +42,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.mobees.app.data.model.CastMember
+import com.mobees.app.data.model.RatingSource
 import com.mobees.app.domain.RatingScale
 import com.mobees.app.ui.theme.Gold
 import com.mobees.app.ui.theme.OnGold
@@ -51,6 +52,7 @@ fun RatingPill(
     rating: Double,
     modifier: Modifier = Modifier,
     compact: Boolean = false,
+    source: RatingSource? = null,
 ) {
     Surface(
         color = Gold,
@@ -62,6 +64,14 @@ fun RatingPill(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.padding(horizontal = if (compact) 6.dp else 10.dp, vertical = if (compact) 3.dp else 6.dp),
         ) {
+            if (source != null) {
+                Text(
+                    source.label,
+                    style = if (compact) MaterialTheme.typography.labelSmall else MaterialTheme.typography.labelMedium,
+                    fontWeight = FontWeight.Black,
+                )
+                Spacer(Modifier.width(6.dp))
+            }
             Icon(Icons.Rounded.Star, contentDescription = null, modifier = Modifier.size(if (compact) 12.dp else 16.dp))
             Spacer(Modifier.width(3.dp))
             Text(
@@ -132,12 +142,19 @@ fun GenreChip(text: String, modifier: Modifier = Modifier) {
     }
 }
 
+/** Compact informational strip used for demo-mode and ratings-fallback notices. */
 @Composable
-fun DemoBanner(modifier: Modifier = Modifier) {
+fun InfoBanner(
+    text: String,
+    modifier: Modifier = Modifier,
+    onClick: (() -> Unit)? = null,
+) {
     Surface(
         color = MaterialTheme.colorScheme.surfaceContainerHigh,
         shape = MaterialTheme.shapes.medium,
-        modifier = modifier.fillMaxWidth(),
+        modifier = modifier
+            .fillMaxWidth()
+            .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier),
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
@@ -151,12 +168,22 @@ fun DemoBanner(modifier: Modifier = Modifier) {
             )
             Spacer(Modifier.width(10.dp))
             Text(
-                "Showing demo data. Add a TMDB API key to browse the live catalogue.",
+                text,
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.weight(1f),
             )
         }
     }
+}
+
+@Composable
+fun DemoBanner(modifier: Modifier = Modifier, onClick: (() -> Unit)? = null) {
+    InfoBanner(
+        text = "Showing demo data. Add a TMDB API key to browse the live catalogue. Tap for service status.",
+        modifier = modifier,
+        onClick = onClick,
+    )
 }
 
 @Composable
