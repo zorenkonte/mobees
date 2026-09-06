@@ -15,7 +15,9 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material.icons.rounded.Search
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -38,6 +40,8 @@ import com.mobees.app.ui.containerViewModel
 fun HomeScreen(
     onOpenTitle: (TitleSummary) -> Unit,
     onOpenSearch: () -> Unit,
+    onOpenSettings: () -> Unit,
+    onOpenStatus: () -> Unit,
     contentPadding: PaddingValues,
 ) {
     val viewModel = containerViewModel { HomeViewModel(it.repository) }
@@ -46,7 +50,7 @@ fun HomeScreen(
     when {
         state.isLoading -> LoadingState(Modifier.padding(contentPadding))
         state.error != null -> ErrorState(state.error!!, Modifier.padding(contentPadding), onRetry = viewModel::load)
-        else -> HomeContent(state, onOpenTitle, onOpenSearch, contentPadding)
+        else -> HomeContent(state, onOpenTitle, onOpenSearch, onOpenSettings, onOpenStatus, contentPadding)
     }
 }
 
@@ -55,6 +59,8 @@ private fun HomeContent(
     state: HomeUiState,
     onOpenTitle: (TitleSummary) -> Unit,
     onOpenSearch: () -> Unit,
+    onOpenSettings: () -> Unit,
+    onOpenStatus: () -> Unit,
     contentPadding: PaddingValues,
 ) {
     LazyColumn(
@@ -68,17 +74,24 @@ private fun HomeContent(
         item {
             Column(Modifier.statusBarsPadding().padding(horizontal = 20.dp)) {
                 Spacer(Modifier.height(12.dp))
-                Text("Mobees", style = MaterialTheme.typography.displaySmall)
-                Text(
-                    "Browse titles, then see how every episode rates.",
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text("Mobees", style = MaterialTheme.typography.displaySmall)
+                        Text(
+                            "Browse titles, then see how every episode rates.",
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                    IconButton(onClick = onOpenSettings) {
+                        Icon(Icons.Outlined.Settings, contentDescription = "Settings", tint = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
                 Spacer(Modifier.height(20.dp))
                 SearchEntry(onClick = onOpenSearch)
                 if (state.isDemo) {
                     Spacer(Modifier.height(12.dp))
-                    DemoBanner()
+                    DemoBanner(onClick = onOpenStatus)
                 }
             }
         }

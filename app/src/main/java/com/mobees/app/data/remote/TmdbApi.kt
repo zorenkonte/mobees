@@ -1,10 +1,15 @@
 package com.mobees.app.data.remote
 
+import kotlinx.serialization.json.JsonObject
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface TmdbApi {
+    /** Cheap endpoint used by the Status page to test connectivity. */
+    @GET("configuration")
+    suspend fun configuration(): JsonObject
+
     @GET("trending/movie/week")
     suspend fun trendingMovies(): PagedResponse<TmdbTitleDto>
 
@@ -38,7 +43,7 @@ interface TmdbApi {
     @GET("movie/{id}")
     suspend fun movie(
         @Path("id") id: Int,
-        @Query("append_to_response") append: String = "credits,similar",
+        @Query("append_to_response") append: String = "credits,similar,external_ids",
     ): MovieDetailDto
 
     @GET("collection/{id}")
@@ -47,7 +52,7 @@ interface TmdbApi {
     @GET("tv/{id}")
     suspend fun tv(
         @Path("id") id: Int,
-        @Query("append_to_response") append: String = "credits",
+        @Query("append_to_response") append: String = "credits,external_ids",
     ): TvDetailDto
 
     @GET("tv/{id}/season/{season}")

@@ -125,12 +125,12 @@ fun DetailHeader(
                 Spacer(Modifier.height(8.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     if (summary.rating > 0) {
-                        RatingPill(rating = summary.rating)
+                        RatingPill(rating = summary.rating, source = summary.ratingSource)
                         Spacer(Modifier.width(8.dp))
                         Column {
                             Text(RatingScale.label(summary.rating), style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.SemiBold)
                             Text(
-                                "${formatVotes(summary.voteCount)} votes",
+                                if (summary.voteCount > 0) "${formatVotes(summary.voteCount)} votes on ${summary.ratingSource.label}" else "${summary.ratingSource.label} rating",
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )

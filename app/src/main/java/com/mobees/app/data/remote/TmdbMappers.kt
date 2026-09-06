@@ -62,6 +62,7 @@ fun MovieDetailDto.toMovieDetail(collection: CollectionDto?): MovieDetail {
         year = releaseDate.toYear(),
         rating = voteAverage,
         voteCount = voteCount,
+        imdbId = externalIds?.imdbId?.takeIf { it.isNotBlank() },
     )
     val franchise = collection?.let { col ->
         Franchise(
@@ -126,6 +127,7 @@ fun TvDetailDto.toTvDetail(seasons: List<Season>): TvDetail {
         year = firstAirDate.toYear(),
         rating = voteAverage,
         voteCount = voteCount,
+        imdbId = externalIds?.imdbId?.takeIf { it.isNotBlank() },
     )
     return TvDetail(
         summary = summary,

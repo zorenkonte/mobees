@@ -43,6 +43,7 @@ class DemoRepositoryTest {
     fun `tv detail exposes every season and episode`() = runTest {
         val show = repository.tv(1396)
         assertEquals("Breaking Bad", show.summary.name)
+        assertEquals("tt0903747", show.summary.imdbId)
         assertEquals(5, show.seasons.size)
         assertEquals(62, show.episodeCount)
         val ozymandias = show.seasons[4].episodes.first { it.episodeNumber == 14 }
@@ -56,6 +57,7 @@ class DemoRepositoryTest {
     fun `movie detail resolves franchise and similar titles`() = runTest {
         val movie = repository.movie(155)
         assertEquals("The Dark Knight", movie.summary.name)
+        assertEquals("tt0468569", movie.summary.imdbId)
         val franchise = movie.franchise
         assertNotNull(franchise)
         assertEquals(3, franchise!!.entries.size)

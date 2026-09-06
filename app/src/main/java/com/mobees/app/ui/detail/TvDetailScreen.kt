@@ -41,6 +41,7 @@ import com.mobees.app.ui.charts.ratingColor
 import com.mobees.app.ui.components.CastRow
 import com.mobees.app.ui.components.ErrorState
 import com.mobees.app.ui.components.ExpandableText
+import com.mobees.app.ui.components.InfoBanner
 import com.mobees.app.ui.components.LoadingState
 import com.mobees.app.ui.components.SectionHeader
 import com.mobees.app.ui.containerViewModel
@@ -53,12 +54,13 @@ fun TvDetailScreen(
     onBack: () -> Unit,
 ) {
     val viewModel = containerViewModel(key = "tv-$tvId") {
-        TvDetailViewModel(tvId, it.repository, it.savedTitles)
+        TvDetailViewModel(tvId, it.ratedRepository, it.savedTitles)
     }
     val state by viewModel.state.collectAsStateWithLifecycle()
     val isSaved by viewModel.isSaved.collectAsStateWithLifecycle()
     val selected by viewModel.selectedEpisode.collectAsStateWithLifecycle()
     val highlightSeason by viewModel.highlightSeason.collectAsStateWithLifecycle()
+    val notice by viewModel.notice.collectAsStateWithLifecycle()
 
     when (val s = state) {
         UiState.Loading -> LoadingState()
@@ -66,6 +68,7 @@ fun TvDetailScreen(
         is UiState.Success -> {
             TvDetailContent(
                 show = s.data,
+                notice = notice,
                 isSaved = isSaved,
                 selected = selected,
                 highlightSeason = highlightSeason,
@@ -93,6 +96,7 @@ fun TvDetailScreen(
 @Composable
 private fun TvDetailContent(
     show: TvDetail,
+    notice: String?,
     isSaved: Boolean,
     selected: Episode?,
     highlightSeason: Int?,
@@ -102,6 +106,9 @@ private fun TvDetailContent(
     onToggleSeason: (Int) -> Unit,
 ) {
     val overview = remember(show) { SeriesStats.overview(show.seasons) }
+    val episodeSource = remember(show) {
+        show.seasons.flatMap { it.episodes }.firstOrNull { it.isRated }?.ratingSource ?: show.summary.ratingSource
+    }
     val years = listOfNotNull(show.summary.year, show.lastAirDate?.take(4)?.takeIf { show.status == "Ended" })
         .distinct().joinToString("–")
 
@@ -126,10 +133,14 @@ private fun TvDetailContent(
             onToggleSaved = onToggleSaved,
         )
         Column(Modifier.offset(y = (-40).dp)) {
+            if (notice != null) {
+                InfoBanner(notice, Modifier.padding(horizontal = 20.dp))
+                Spacer(Modifier.height(20.dp))
+            }
             if (show.seasons.isNotEmpty()) {
                 SectionCard(
                     title = "Series graph",
-                    subtitle = "Every episode's rating, season by season. Tap a cell for details.",
+                    subtitle = "${episodeSource.label} rating of every episode, season by season. Tap a cell for details.",
                 ) {
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                         StatTile(
@@ -255,7 +266,11 @@ private fun EpisodeSheet(episode: Episode, seasons: List<com.mobees.app.data.mod
                 Modifier.weight(1f),
                 accent = ratingColor(episode.rating),
             )
-            StatTile("Votes", formatVotes(episode.voteCount), Modifier.weight(1f))
+            if (episode.voteCount > 0) {
+                StatTile("Votes", formatVotes(episode.voteCount), Modifier.weight(1f))
+            } else {
+                StatTile("Source", episode.ratingSource.label, Modifier.weight(1f))
+            }
             StatTile("Season avg", RatingScale.format(seasonAverage), Modifier.weight(1f))
         }
         if (episode.isRated && seasonAverage > 0) {

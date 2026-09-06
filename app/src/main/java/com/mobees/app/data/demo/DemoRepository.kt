@@ -133,6 +133,7 @@ class DemoRepository(private val jsonProvider: suspend () -> String) : TitleRepo
         year = releaseDate.toYear(),
         rating = rating,
         voteCount = voteCount,
+        imdbId = imdbId,
     )
 
     private fun DemoShow.toSummary() = TitleSummary(
@@ -145,5 +146,6 @@ class DemoRepository(private val jsonProvider: suspend () -> String) : TitleRepo
         year = firstAirDate.toYear(),
         rating = rating,
         voteCount = voteCount,
+        imdbId = imdbId,
     )
 }

@@ -21,6 +21,7 @@ data class DemoFranchise(val name: String, val entries: List<DemoFranchiseEntry>
 data class DemoMovie(
     val id: Int,
     val title: String,
+    val imdbId: String? = null,
     val releaseDate: String,
     val rating: Double,
     val voteCount: Int,
@@ -57,6 +58,7 @@ data class DemoSeason(
 data class DemoShow(
     val id: Int,
     val name: String,
+    val imdbId: String? = null,
     val firstAirDate: String,
     val lastAirDate: String? = null,
     val status: String? = null,

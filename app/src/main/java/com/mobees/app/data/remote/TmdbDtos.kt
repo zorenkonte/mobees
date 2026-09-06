@@ -51,6 +51,11 @@ data class CreditsDto(
 )
 
 @Serializable
+data class ExternalIdsDto(
+    @SerialName("imdb_id") val imdbId: String? = null,
+)
+
+@Serializable
 data class CollectionRefDto(
     val id: Int,
     val name: String,
@@ -74,6 +79,7 @@ data class MovieDetailDto(
     @SerialName("belongs_to_collection") val belongsToCollection: CollectionRefDto? = null,
     val credits: CreditsDto? = null,
     val similar: PagedResponse<TmdbTitleDto>? = null,
+    @SerialName("external_ids") val externalIds: ExternalIdsDto? = null,
 )
 
 @Serializable
@@ -119,6 +125,7 @@ data class TvDetailDto(
     @SerialName("created_by") val createdBy: List<PersonRefDto> = emptyList(),
     val networks: List<NetworkDto> = emptyList(),
     val credits: CreditsDto? = null,
+    @SerialName("external_ids") val externalIds: ExternalIdsDto? = null,
 )
 
 @Serializable
