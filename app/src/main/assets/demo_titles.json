@@ -1,0 +1,4007 @@
+{
+ "movies": [
+  {
+   "id": 155,
+   "title": "The Dark Knight",
+   "releaseDate": "2008-07-16",
+   "rating": 8.5,
+   "voteCount": 33210,
+   "runtime": 152,
+   "trending": true,
+   "tagline": "Welcome to a world without rules.",
+   "overview": "With Gotham's mob on the back foot, Batman, Lieutenant Gordon and District Attorney Harvey Dent form an uneasy alliance. Their progress is upended when a chaotic new criminal calling himself the Joker sets out to prove that everyone can be corrupted.",
+   "genres": [
+    "Action",
+    "Crime",
+    "Drama"
+   ],
+   "directors": [
+    "Christopher Nolan"
+   ],
+   "cast": [
+    {
+     "name": "Christian Bale",
+     "character": "Bruce Wayne / Batman"
+    },
+    {
+     "name": "Heath Ledger",
+     "character": "Joker"
+    },
+    {
+     "name": "Aaron Eckhart",
+     "character": "Harvey Dent"
+    },
+    {
+     "name": "Gary Oldman",
+     "character": "James Gordon"
+    },
+    {
+     "name": "Maggie Gyllenhaal",
+     "character": "Rachel Dawes"
+    }
+   ],
+   "franchise": {
+    "name": "The Dark Knight Collection",
+    "entries": [
+     {
+      "id": 272,
+      "title": "Batman Begins",
+      "year": "2005",
+      "rating": 7.7
+     },
+     {
+      "id": 155,
+      "title": "The Dark Knight",
+      "year": "2008",
+      "rating": 8.5
+     },
+     {
+      "id": 49026,
+      "title": "The Dark Knight Rises",
+      "year": "2012",
+      "rating": 7.8
+     }
+    ]
+   },
+   "similarIds": [
+    27205,
+    157336,
+    680
+   ]
+  },
+  {
+   "id": 27205,
+   "title": "Inception",
+   "releaseDate": "2010-07-15",
+   "rating": 8.4,
+   "voteCount": 37105,
+   "runtime": 148,
+   "trending": true,
+   "tagline": "Your mind is the scene of the crime.",
+   "overview": "Dom Cobb steals secrets from inside people's dreams. Offered a chance to erase his past, he assembles a team for the reverse task: planting an idea deep in a target's subconscious.",
+   "genres": [
+    "Action",
+    "Science Fiction",
+    "Adventure"
+   ],
+   "directors": [
+    "Christopher Nolan"
+   ],
+   "cast": [
+    {
+     "name": "Leonardo DiCaprio",
+     "character": "Dom Cobb"
+    },
+    {
+     "name": "Joseph Gordon-Levitt",
+     "character": "Arthur"
+    },
+    {
+     "name": "Elliot Page",
+     "character": "Ariadne"
+    },
+    {
+     "name": "Tom Hardy",
+     "character": "Eames"
+    },
+    {
+     "name": "Cillian Murphy",
+     "character": "Robert Fischer"
+    }
+   ],
+   "similarIds": [
+    155,
+    157336,
+    693134
+   ]
+  },
+  {
+   "id": 157336,
+   "title": "Interstellar",
+   "releaseDate": "2014-11-05",
+   "rating": 8.4,
+   "voteCount": 36510,
+   "runtime": 169,
+   "trending": true,
+   "tagline": "Mankind was born on Earth. It was never meant to die here.",
+   "overview": "As crops fail across a dying Earth, a former pilot joins a small crew travelling through a wormhole in search of a new home for humanity, leaving his children behind with no promise of return.",
+   "genres": [
+    "Adventure",
+    "Drama",
+    "Science Fiction"
+   ],
+   "directors": [
+    "Christopher Nolan"
+   ],
+   "cast": [
+    {
+     "name": "Matthew McConaughey",
+     "character": "Cooper"
+    },
+    {
+     "name": "Anne Hathaway",
+     "character": "Brand"
+    },
+    {
+     "name": "Jessica Chastain",
+     "character": "Murph"
+    },
+    {
+     "name": "Michael Caine",
+     "character": "Professor Brand"
+    }
+   ],
+   "similarIds": [
+    27205,
+    693134,
+    155
+   ]
+  },
+  {
+   "id": 238,
+   "title": "The Godfather",
+   "releaseDate": "1972-03-14",
+   "rating": 8.7,
+   "voteCount": 20890,
+   "runtime": 175,
+   "tagline": "An offer you can't refuse.",
+   "overview": "The ageing patriarch of a New York crime family hands control to his reluctant youngest son, who is drawn ever deeper into a world he wanted no part of.",
+   "genres": [
+    "Drama",
+    "Crime"
+   ],
+   "directors": [
+    "Francis Ford Coppola"
+   ],
+   "cast": [
+    {
+     "name": "Marlon Brando",
+     "character": "Don Vito Corleone"
+    },
+    {
+     "name": "Al Pacino",
+     "character": "Michael Corleone"
+    },
+    {
+     "name": "James Caan",
+     "character": "Sonny Corleone"
+    },
+    {
+     "name": "Robert Duvall",
+     "character": "Tom Hagen"
+    },
+    {
+     "name": "Diane Keaton",
+     "character": "Kay Adams"
+    }
+   ],
+   "franchise": {
+    "name": "The Godfather Collection",
+    "entries": [
+     {
+      "id": 238,
+      "title": "The Godfather",
+      "year": "1972",
+      "rating": 8.7
+     },
+     {
+      "id": 240,
+      "title": "The Godfather Part II",
+      "year": "1974",
+      "rating": 8.6
+     },
+     {
+      "id": 242,
+      "title": "The Godfather Part III",
+      "year": "1990",
+      "rating": 7.4
+     }
+    ]
+   },
+   "similarIds": [
+    680,
+    155
+   ]
+  },
+  {
+   "id": 680,
+   "title": "Pulp Fiction",
+   "releaseDate": "1994-09-10",
+   "rating": 8.5,
+   "voteCount": 28340,
+   "runtime": 154,
+   "tagline": "Just because you are a character doesn't mean you have character.",
+   "overview": "Two hit men, a boxer, a gangster's wife and a pair of diner bandits cross paths in a set of interlocking stories told out of order.",
+   "genres": [
+    "Thriller",
+    "Crime"
+   ],
+   "directors": [
+    "Quentin Tarantino"
+   ],
+   "cast": [
+    {
+     "name": "John Travolta",
+     "character": "Vincent Vega"
+    },
+    {
+     "name": "Samuel L. Jackson",
+     "character": "Jules Winnfield"
+    },
+    {
+     "name": "Uma Thurman",
+     "character": "Mia Wallace"
+    },
+    {
+     "name": "Bruce Willis",
+     "character": "Butch Coolidge"
+    }
+   ],
+   "similarIds": [
+    238,
+    155
+   ]
+  },
+  {
+   "id": 496243,
+   "title": "Parasite",
+   "releaseDate": "2019-05-30",
+   "rating": 8.5,
+   "voteCount": 18920,
+   "runtime": 133,
+   "tagline": "Act like you own the place.",
+   "overview": "The struggling Kim family talk their way into the household of the wealthy Parks one job at a time, until an unexpected discovery threatens the arrangement.",
+   "genres": [
+    "Comedy",
+    "Thriller",
+    "Drama"
+   ],
+   "directors": [
+    "Bong Joon-ho"
+   ],
+   "cast": [
+    {
+     "name": "Song Kang-ho",
+     "character": "Kim Ki-taek"
+    },
+    {
+     "name": "Lee Sun-kyun",
+     "character": "Park Dong-ik"
+    },
+    {
+     "name": "Cho Yeo-jeong",
+     "character": "Choi Yeon-gyo"
+    },
+    {
+     "name": "Choi Woo-shik",
+     "character": "Kim Ki-woo"
+    },
+    {
+     "name": "Park So-dam",
+     "character": "Kim Ki-jung"
+    }
+   ],
+   "similarIds": [
+    680,
+    129
+   ]
+  },
+  {
+   "id": 129,
+   "title": "Spirited Away",
+   "releaseDate": "2001-07-20",
+   "rating": 8.5,
+   "voteCount": 16850,
+   "runtime": 125,
+   "overview": "Ten-year-old Chihiro wanders into a bathhouse for spirits, where a witch turns her parents into pigs. To free them she takes a job under a new name and must not forget her own.",
+   "genres": [
+    "Animation",
+    "Family",
+    "Fantasy"
+   ],
+   "directors": [
+    "Hayao Miyazaki"
+   ],
+   "cast": [
+    {
+     "name": "Rumi Hiiragi",
+     "character": "Chihiro Ogino"
+    },
+    {
+     "name": "Miyu Irino",
+     "character": "Haku"
+    },
+    {
+     "name": "Mari Natsuki",
+     "character": "Yubaba / Zeniba"
+    }
+   ],
+   "similarIds": [
+    862,
+    496243
+   ]
+  },
+  {
+   "id": 120,
+   "title": "The Lord of the Rings: The Fellowship of the Ring",
+   "releaseDate": "2001-12-18",
+   "rating": 8.4,
+   "voteCount": 25410,
+   "runtime": 179,
+   "tagline": "One ring to rule them all.",
+   "overview": "A young hobbit inherits a ring of terrible power and sets out with eight companions to destroy it in the one place it can be unmade.",
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+   ],
+   "directors": [
+    "Peter Jackson"
+   ],
+   "cast": [
+    {
+     "name": "Elijah Wood",
+     "character": "Frodo Baggins"
+    },
+    {
+     "name": "Ian McKellen",
+     "character": "Gandalf"
+    },
+    {
+     "name": "Viggo Mortensen",
+     "character": "Aragorn"
+    },
+    {
+     "name": "Sean Astin",
+     "character": "Samwise Gamgee"
+    },
+    {
+     "name": "Cate Blanchett",
+     "character": "Galadriel"
+    }
+   ],
+   "franchise": {
+    "name": "The Lord of the Rings Collection",
+    "entries": [
+     {
+      "id": 120,
+      "title": "The Fellowship of the Ring",
+      "year": "2001",
+      "rating": 8.4
+     },
+     {
+      "id": 121,
+      "title": "The Two Towers",
+      "year": "2002",
+      "rating": 8.4
+     },
+     {
+      "id": 122,
+      "title": "The Return of the King",
+      "year": "2003",
+      "rating": 8.5
+     }
+    ]
+   },
+   "similarIds": [
+    693134,
+    76341
+   ]
+  },
+  {
+   "id": 76341,
+   "title": "Mad Max: Fury Road",
+   "releaseDate": "2015-05-13",
+   "rating": 7.6,
+   "voteCount": 23110,
+   "runtime": 121,
+   "tagline": "What a lovely day.",
+   "overview": "In a desert wasteland ruled by a warlord, a drifter and a rebellious lieutenant flee across the sand in an armoured rig with five escapees and an entire war party on their tail.",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Science Fiction"
+   ],
+   "directors": [
+    "George Miller"
+   ],
+   "cast": [
+    {
+     "name": "Tom Hardy",
+     "character": "Max Rockatansky"
+    },
+    {
+     "name": "Charlize Theron",
+     "character": "Imperator Furiosa"
+    },
+    {
+     "name": "Nicholas Hoult",
+     "character": "Nux"
+    },
+    {
+     "name": "Hugh Keays-Byrne",
+     "character": "Immortan Joe"
+    }
+   ],
+   "franchise": {
+    "name": "Mad Max Collection",
+    "entries": [
+     {
+      "id": 9659,
+      "title": "Mad Max",
+      "year": "1979",
+      "rating": 6.7
+     },
+     {
+      "id": 8810,
+      "title": "Mad Max 2",
+      "year": "1981",
+      "rating": 7.3
+     },
+     {
+      "id": 8827,
+      "title": "Beyond Thunderdome",
+      "year": "1985",
+      "rating": 6.3
+     },
+     {
+      "id": 76341,
+      "title": "Fury Road",
+      "year": "2015",
+      "rating": 7.6
+     },
+     {
+      "id": 786892,
+      "title": "Furiosa",
+      "year": "2024",
+      "rating": 7.5
+     }
+    ]
+   },
+   "similarIds": [
+    693134,
+    120
+   ]
+  },
+  {
+   "id": 862,
+   "title": "Toy Story",
+   "releaseDate": "1995-10-30",
+   "rating": 8.0,
+   "voteCount": 18740,
+   "runtime": 81,
+   "tagline": "The toys are back in town.",
+   "overview": "When a flashy space-ranger toy arrives, a cowboy doll's place as the favourite is threatened. A scheme to get rid of the newcomer strands both of them far from home.",
+   "genres": [
+    "Animation",
+    "Adventure",
+    "Family",
+    "Comedy"
+   ],
+   "directors": [
+    "John Lasseter"
+   ],
+   "cast": [
+    {
+     "name": "Tom Hanks",
+     "character": "Woody"
+    },
+    {
+     "name": "Tim Allen",
+     "character": "Buzz Lightyear"
+    },
+    {
+     "name": "Don Rickles",
+     "character": "Mr. Potato Head"
+    }
+   ],
+   "franchise": {
+    "name": "Toy Story Collection",
+    "entries": [
+     {
+      "id": 862,
+      "title": "Toy Story",
+      "year": "1995",
+      "rating": 8.0
+     },
+     {
+      "id": 863,
+      "title": "Toy Story 2",
+      "year": "1999",
+      "rating": 7.6
+     },
+     {
+      "id": 10193,
+      "title": "Toy Story 3",
+      "year": "2010",
+      "rating": 7.8
+     },
+     {
+      "id": 301528,
+      "title": "Toy Story 4",
+      "year": "2019",
+      "rating": 7.5
+     }
+    ]
+   },
+   "similarIds": [
+    129
+   ]
+  },
+  {
+   "id": 693134,
+   "title": "Dune: Part Two",
+   "releaseDate": "2024-02-27",
+   "rating": 8.2,
+   "voteCount": 7420,
+   "runtime": 167,
+   "trending": true,
+   "tagline": "Long live the fighters.",
+   "overview": "Paul Atreides joins the Fremen and rides to war against the Harkonnens, while a prophecy he does not trust gathers momentum around him.",
+   "genres": [
+    "Science Fiction",
+    "Adventure"
+   ],
+   "directors": [
+    "Denis Villeneuve"
+   ],
+   "cast": [
+    {
+     "name": "Timothée Chalamet",
+     "character": "Paul Atreides"
+    },
+    {
+     "name": "Zendaya",
+     "character": "Chani"
+    },
+    {
+     "name": "Rebecca Ferguson",
+     "character": "Lady Jessica"
+    },
+    {
+     "name": "Austin Butler",
+     "character": "Feyd-Rautha"
+    }
+   ],
+   "franchise": {
+    "name": "Dune Collection",
+    "entries": [
+     {
+      "id": 438631,
+      "title": "Dune",
+      "year": "2021",
+      "rating": 7.8
+     },
+     {
+      "id": 693134,
+      "title": "Dune: Part Two",
+      "year": "2024",
+      "rating": 8.2
+     }
+    ]
+   },
+   "similarIds": [
+    157336,
+    120,
+    76341
+   ]
+  }
+ ],
+ "shows": [
+  {
+   "id": 1396,
+   "name": "Breaking Bad",
+   "firstAirDate": "2008-01-20",
+   "lastAirDate": "2013-09-29",
+   "status": "Ended",
+   "rating": 8.9,
+   "voteCount": 15230,
+   "popular": true,
+   "tagline": "Change the equation.",
+   "overview": "A chemistry teacher given a terminal diagnosis turns to cooking methamphetamine with a former student, telling himself it is all for his family.",
+   "genres": [
+    "Drama",
+    "Crime"
+   ],
+   "creators": [
+    "Vince Gilligan"
+   ],
+   "networks": [
+    "AMC"
+   ],
+   "episodeRuntime": 47,
+   "cast": [
+    {
+     "name": "Bryan Cranston",
+     "character": "Walter White"
+    },
+    {
+     "name": "Aaron Paul",
+     "character": "Jesse Pinkman"
+    },
+    {
+     "name": "Anna Gunn",
+     "character": "Skyler White"
+    },
+    {
+     "name": "Dean Norris",
+     "character": "Hank Schrader"
+    },
+    {
+     "name": "Bob Odenkirk",
+     "character": "Saul Goodman"
+    },
+    {
+     "name": "Giancarlo Esposito",
+     "character": "Gus Fring"
+    }
+   ],
+   "seasons": [
+    {
+     "number": 1,
+     "name": "Season 1",
+     "airDate": "2008-01-20",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Pilot",
+       "airDate": "2008-01-20",
+       "rating": 8.5,
+       "voteCount": 795
+      },
+      {
+       "number": 2,
+       "name": "Cat's in the Bag...",
+       "airDate": "2008-01-27",
+       "rating": 8.3,
+       "voteCount": 651
+      },
+      {
+       "number": 3,
+       "name": "...And the Bag's in the River",
+       "airDate": "2008-02-03",
+       "rating": 8.2,
+       "voteCount": 954
+      },
+      {
+       "number": 4,
+       "name": "Cancer Man",
+       "airDate": "2008-02-10",
+       "rating": 7.9,
+       "voteCount": 1048
+      },
+      {
+       "number": 5,
+       "name": "Gray Matter",
+       "airDate": "2008-02-17",
+       "rating": 8.5,
+       "voteCount": 737
+      },
+      {
+       "number": 6,
+       "name": "Crazy Handful of Nothin'",
+       "airDate": "2008-02-24",
+       "rating": 8.4,
+       "voteCount": 1109
+      },
+      {
+       "number": 7,
+       "name": "A No-Rough-Stuff-Type Deal",
+       "airDate": "2008-03-02",
+       "rating": 8.4,
+       "voteCount": 693
+      }
+     ]
+    },
+    {
+     "number": 2,
+     "name": "Season 2",
+     "airDate": "2009-03-08",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2009-03-08",
+       "rating": 8.6,
+       "voteCount": 658
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2009-03-15",
+       "rating": 8.2,
+       "voteCount": 1106
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2009-03-22",
+       "rating": 8.2,
+       "voteCount": 1113
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2009-03-29",
+       "rating": 8.5,
+       "voteCount": 672
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2009-04-05",
+       "rating": 8.3,
+       "voteCount": 1020
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2009-04-12",
+       "rating": 8.1,
+       "voteCount": 895
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2009-04-19",
+       "rating": 8.2,
+       "voteCount": 759
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2009-04-26",
+       "rating": 8.6,
+       "voteCount": 1009
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2009-05-03",
+       "rating": 8.7,
+       "voteCount": 655
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2009-05-10",
+       "rating": 8.5,
+       "voteCount": 1108
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2009-05-17",
+       "rating": 8.4,
+       "voteCount": 1160
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2009-05-24",
+       "rating": 9.1,
+       "voteCount": 1077
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2009-05-31",
+       "rating": 8.9,
+       "voteCount": 1163
+      }
+     ]
+    },
+    {
+     "number": 3,
+     "name": "Season 3",
+     "airDate": "2010-03-21",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2010-03-21",
+       "rating": 8.5,
+       "voteCount": 900
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2010-03-28",
+       "rating": 8.2,
+       "voteCount": 850
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2010-04-04",
+       "rating": 8.4,
+       "voteCount": 733
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2010-04-11",
+       "rating": 8.3,
+       "voteCount": 1006
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2010-04-18",
+       "rating": 8.7,
+       "voteCount": 1103
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2010-04-25",
+       "rating": 8.6,
+       "voteCount": 788
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2010-05-02",
+       "rating": 8.5,
+       "voteCount": 944
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2010-05-09",
+       "rating": 8.7,
+       "voteCount": 1019
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2010-05-16",
+       "rating": 8.6,
+       "voteCount": 1006
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2010-05-23",
+       "rating": 8.5,
+       "voteCount": 966
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2010-05-30",
+       "rating": 8.6,
+       "voteCount": 902
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2010-06-06",
+       "rating": 9.1,
+       "voteCount": 690
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2010-06-13",
+       "rating": 9.3,
+       "voteCount": 767
+      }
+     ]
+    },
+    {
+     "number": 4,
+     "name": "Season 4",
+     "airDate": "2011-07-17",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2011-07-17",
+       "rating": 8.5,
+       "voteCount": 675
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2011-07-24",
+       "rating": 8.7,
+       "voteCount": 836
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2011-07-31",
+       "rating": 8.9,
+       "voteCount": 1002
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2011-08-07",
+       "rating": 8.9,
+       "voteCount": 733
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2011-08-14",
+       "rating": 8.6,
+       "voteCount": 1033
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2011-08-21",
+       "rating": 8.9,
+       "voteCount": 661
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2011-08-28",
+       "rating": 8.6,
+       "voteCount": 641
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2011-09-04",
+       "rating": 9.0,
+       "voteCount": 653
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2011-09-11",
+       "rating": 8.7,
+       "voteCount": 968
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2011-09-18",
+       "rating": 8.7,
+       "voteCount": 709
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2011-09-25",
+       "rating": 9.1,
+       "voteCount": 971
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2011-10-02",
+       "rating": 8.6,
+       "voteCount": 1119
+      },
+      {
+       "number": 13,
+       "name": "Face Off",
+       "airDate": "2011-10-09",
+       "rating": 9.6,
+       "voteCount": 668
+      }
+     ]
+    },
+    {
+     "number": 5,
+     "name": "Season 5",
+     "airDate": "2012-07-15",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2012-07-15",
+       "rating": 9.1,
+       "voteCount": 691
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2012-07-22",
+       "rating": 9.2,
+       "voteCount": 664
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2012-07-29",
+       "rating": 8.7,
+       "voteCount": 969
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2012-08-05",
+       "rating": 9.2,
+       "voteCount": 1123
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2012-08-12",
+       "rating": 8.6,
+       "voteCount": 1126
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2012-08-19",
+       "rating": 9.2,
+       "voteCount": 663
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2012-08-26",
+       "rating": 8.9,
+       "voteCount": 898
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2012-09-02",
+       "rating": 8.6,
+       "voteCount": 1094
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2012-09-09",
+       "rating": 9.1,
+       "voteCount": 846
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2012-09-16",
+       "rating": 8.8,
+       "voteCount": 921
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2012-09-23",
+       "rating": 9.1,
+       "voteCount": 1031
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2012-09-30",
+       "rating": 9.1,
+       "voteCount": 656
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2012-10-07",
+       "rating": 9.3,
+       "voteCount": 745
+      },
+      {
+       "number": 14,
+       "name": "Ozymandias",
+       "airDate": "2012-10-14",
+       "rating": 9.9,
+       "voteCount": 732
+      },
+      {
+       "number": 15,
+       "name": "Granite State",
+       "airDate": "2012-10-21",
+       "rating": 9.2,
+       "voteCount": 1078
+      },
+      {
+       "number": 16,
+       "name": "Felina",
+       "airDate": "2012-10-28",
+       "rating": 9.6,
+       "voteCount": 717
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1399,
+   "name": "Game of Thrones",
+   "firstAirDate": "2011-04-17",
+   "lastAirDate": "2019-05-19",
+   "status": "Ended",
+   "rating": 8.5,
+   "voteCount": 25890,
+   "popular": true,
+   "tagline": "Winter is coming.",
+   "overview": "Noble houses fight for the Iron Throne of Westeros while an ancient threat gathers beyond the Wall in the far north.",
+   "genres": [
+    "Sci-Fi & Fantasy",
+    "Drama",
+    "Action & Adventure"
+   ],
+   "creators": [
+    "David Benioff",
+    "D. B. Weiss"
+   ],
+   "networks": [
+    "HBO"
+   ],
+   "episodeRuntime": 60,
+   "cast": [
+    {
+     "name": "Emilia Clarke",
+     "character": "Daenerys Targaryen"
+    },
+    {
+     "name": "Kit Harington",
+     "character": "Jon Snow"
+    },
+    {
+     "name": "Peter Dinklage",
+     "character": "Tyrion Lannister"
+    },
+    {
+     "name": "Lena Headey",
+     "character": "Cersei Lannister"
+    },
+    {
+     "name": "Sophie Turner",
+     "character": "Sansa Stark"
+    },
+    {
+     "name": "Maisie Williams",
+     "character": "Arya Stark"
+    }
+   ],
+   "seasons": [
+    {
+     "number": 1,
+     "name": "Season 1",
+     "airDate": "2011-04-17",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2011-04-17",
+       "rating": 8.6,
+       "voteCount": 1601
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2011-04-24",
+       "rating": 8.5,
+       "voteCount": 1507
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2011-05-01",
+       "rating": 8.8,
+       "voteCount": 1741
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2011-05-08",
+       "rating": 8.7,
+       "voteCount": 1554
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2011-05-15",
+       "rating": 8.3,
+       "voteCount": 1657
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2011-05-22",
+       "rating": 8.8,
+       "voteCount": 1417
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2011-05-29",
+       "rating": 8.8,
+       "voteCount": 1613
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2011-06-05",
+       "rating": 8.8,
+       "voteCount": 1870
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2011-06-12",
+       "rating": 9.3,
+       "voteCount": 2006
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2011-06-19",
+       "rating": 9.1,
+       "voteCount": 1485
+      }
+     ]
+    },
+    {
+     "number": 2,
+     "name": "Season 2",
+     "airDate": "2012-04-01",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2012-04-01",
+       "rating": 8.5,
+       "voteCount": 1817
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2012-04-08",
+       "rating": 8.6,
+       "voteCount": 1355
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2012-04-15",
+       "rating": 8.6,
+       "voteCount": 1450
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2012-04-22",
+       "rating": 8.9,
+       "voteCount": 1489
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2012-04-29",
+       "rating": 8.4,
+       "voteCount": 1231
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2012-05-06",
+       "rating": 8.6,
+       "voteCount": 1588
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2012-05-13",
+       "rating": 8.4,
+       "voteCount": 1948
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2012-05-20",
+       "rating": 8.8,
+       "voteCount": 1811
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2012-05-27",
+       "rating": 9.4,
+       "voteCount": 1756
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2012-06-03",
+       "rating": 9.1,
+       "voteCount": 1218
+      }
+     ]
+    },
+    {
+     "number": 3,
+     "name": "Season 3",
+     "airDate": "2013-03-31",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2013-03-31",
+       "rating": 8.5,
+       "voteCount": 1480
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2013-04-07",
+       "rating": 8.9,
+       "voteCount": 1835
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2013-04-14",
+       "rating": 8.7,
+       "voteCount": 1275
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2013-04-21",
+       "rating": 9.0,
+       "voteCount": 1123
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2013-04-28",
+       "rating": 8.8,
+       "voteCount": 1283
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2013-05-05",
+       "rating": 8.8,
+       "voteCount": 1741
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2013-05-12",
+       "rating": 9.0,
+       "voteCount": 1171
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2013-05-19",
+       "rating": 8.6,
+       "voteCount": 1074
+      },
+      {
+       "number": 9,
+       "name": "The Rains of Castamere",
+       "airDate": "2013-05-26",
+       "rating": 9.6,
+       "voteCount": 1847
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2013-06-02",
+       "rating": 9.2,
+       "voteCount": 1081
+      }
+     ]
+    },
+    {
+     "number": 4,
+     "name": "Season 4",
+     "airDate": "2014-04-06",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2014-04-06",
+       "rating": 9.0,
+       "voteCount": 1784
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2014-04-13",
+       "rating": 9.3,
+       "voteCount": 1492
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2014-04-20",
+       "rating": 9.2,
+       "voteCount": 1192
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2014-04-27",
+       "rating": 9.0,
+       "voteCount": 1785
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2014-05-04",
+       "rating": 9.1,
+       "voteCount": 1595
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2014-05-11",
+       "rating": 8.9,
+       "voteCount": 1065
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2014-05-18",
+       "rating": 8.8,
+       "voteCount": 1883
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2014-05-25",
+       "rating": 9.4,
+       "voteCount": 1274
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2014-06-01",
+       "rating": 8.6,
+       "voteCount": 1158
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2014-06-08",
+       "rating": 9.4,
+       "voteCount": 1347
+      }
+     ]
+    },
+    {
+     "number": 5,
+     "name": "Season 5",
+     "airDate": "2015-04-12",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2015-04-12",
+       "rating": 8.4,
+       "voteCount": 1027
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2015-04-19",
+       "rating": 8.4,
+       "voteCount": 1323
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2015-04-26",
+       "rating": 8.6,
+       "voteCount": 1382
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2015-05-03",
+       "rating": 8.4,
+       "voteCount": 1397
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2015-05-10",
+       "rating": 8.5,
+       "voteCount": 1429
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2015-05-17",
+       "rating": 8.6,
+       "voteCount": 1600
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2015-05-24",
+       "rating": 8.6,
+       "voteCount": 1160
+      },
+      {
+       "number": 8,
+       "name": "Hardhome",
+       "airDate": "2015-05-31",
+       "rating": 9.5,
+       "voteCount": 1774
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2015-06-07",
+       "rating": 8.5,
+       "voteCount": 1520
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2015-06-14",
+       "rating": 8.8,
+       "voteCount": 1694
+      }
+     ]
+    },
+    {
+     "number": 6,
+     "name": "Season 6",
+     "airDate": "2016-04-24",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2016-04-24",
+       "rating": 9.2,
+       "voteCount": 1763
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2016-05-01",
+       "rating": 9.1,
+       "voteCount": 1184
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2016-05-08",
+       "rating": 8.7,
+       "voteCount": 1818
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2016-05-15",
+       "rating": 8.6,
+       "voteCount": 1160
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2016-05-22",
+       "rating": 8.7,
+       "voteCount": 1402
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2016-05-29",
+       "rating": 8.8,
+       "voteCount": 1237
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2016-06-05",
+       "rating": 8.6,
+       "voteCount": 1275
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2016-06-12",
+       "rating": 8.6,
+       "voteCount": 1715
+      },
+      {
+       "number": 9,
+       "name": "Battle of the Bastards",
+       "airDate": "2016-06-19",
+       "rating": 9.7,
+       "voteCount": 1766
+      },
+      {
+       "number": 10,
+       "name": "The Winds of Winter",
+       "airDate": "2016-06-26",
+       "rating": 9.8,
+       "voteCount": 1588
+      }
+     ]
+    },
+    {
+     "number": 7,
+     "name": "Season 7",
+     "airDate": "2017-07-16",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2017-07-16",
+       "rating": 8.5,
+       "voteCount": 1246
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2017-07-23",
+       "rating": 8.6,
+       "voteCount": 2203
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2017-07-30",
+       "rating": 8.5,
+       "voteCount": 1775
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2017-08-06",
+       "rating": 9.3,
+       "voteCount": 2088
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2017-08-13",
+       "rating": 8.9,
+       "voteCount": 1209
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2017-08-20",
+       "rating": 8.4,
+       "voteCount": 1641
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2017-08-27",
+       "rating": 9.2,
+       "voteCount": 1270
+      }
+     ]
+    },
+    {
+     "number": 8,
+     "name": "Season 8",
+     "airDate": "2019-04-14",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Winterfell",
+       "airDate": "2019-04-14",
+       "rating": 7.4,
+       "voteCount": 3345
+      },
+      {
+       "number": 2,
+       "name": "A Knight of the Seven Kingdoms",
+       "airDate": "2019-04-21",
+       "rating": 7.7,
+       "voteCount": 2188
+      },
+      {
+       "number": 3,
+       "name": "The Long Night",
+       "airDate": "2019-04-28",
+       "rating": 7.4,
+       "voteCount": 2620
+      },
+      {
+       "number": 4,
+       "name": "The Last of the Starks",
+       "airDate": "2019-05-05",
+       "rating": 5.5,
+       "voteCount": 2664
+      },
+      {
+       "number": 5,
+       "name": "The Bells",
+       "airDate": "2019-05-12",
+       "rating": 5.9,
+       "voteCount": 2523
+      },
+      {
+       "number": 6,
+       "name": "The Iron Throne",
+       "airDate": "2019-05-19",
+       "rating": 4.2,
+       "voteCount": 2492
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 87108,
+   "name": "Chernobyl",
+   "firstAirDate": "2019-05-06",
+   "lastAirDate": "2019-06-03",
+   "status": "Ended",
+   "rating": 8.7,
+   "voteCount": 6410,
+   "popular": true,
+   "tagline": "What is the cost of lies?",
+   "overview": "A dramatisation of the 1986 nuclear disaster and the scientists, firefighters and miners who tried to contain it while officials worked to contain the truth.",
+   "genres": [
+    "Drama",
+    "War & Politics"
+   ],
+   "creators": [
+    "Craig Mazin"
+   ],
+   "networks": [
+    "HBO",
+    "Sky Atlantic"
+   ],
+   "episodeRuntime": 62,
+   "cast": [
+    {
+     "name": "Jared Harris",
+     "character": "Valery Legasov"
+    },
+    {
+     "name": "Stellan Skarsgård",
+     "character": "Boris Shcherbina"
+    },
+    {
+     "name": "Emily Watson",
+     "character": "Ulana Khomyuk"
+    },
+    {
+     "name": "Jessie Buckley",
+     "character": "Lyudmilla Ignatenko"
+    }
+   ],
+   "seasons": [
+    {
+     "number": 1,
+     "name": "Season 1",
+     "airDate": "2019-05-06",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "1:23:45",
+       "airDate": "2019-05-06",
+       "rating": 8.6,
+       "voteCount": 1478
+      },
+      {
+       "number": 2,
+       "name": "Please Remain Calm",
+       "airDate": "2019-05-13",
+       "rating": 8.9,
+       "voteCount": 1361
+      },
+      {
+       "number": 3,
+       "name": "Open Wide, O Earth",
+       "airDate": "2019-05-20",
+       "rating": 9.2,
+       "voteCount": 1093
+      },
+      {
+       "number": 4,
+       "name": "The Happiness of All Mankind",
+       "airDate": "2019-05-27",
+       "rating": 9.0,
+       "voteCount": 874
+      },
+      {
+       "number": 5,
+       "name": "Vichnaya Pamyat",
+       "airDate": "2019-06-03",
+       "rating": 9.4,
+       "voteCount": 1543
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2316,
+   "name": "The Office",
+   "firstAirDate": "2005-03-24",
+   "lastAirDate": "2013-05-16",
+   "status": "Ended",
+   "rating": 8.6,
+   "voteCount": 5120,
+   "popular": true,
+   "overview": "A documentary crew follows the staff of a paper company's Scranton branch and the regional manager who is certain he is everybody's best friend.",
+   "genres": [
+    "Comedy"
+   ],
+   "creators": [
+    "Greg Daniels"
+   ],
+   "networks": [
+    "NBC"
+   ],
+   "episodeRuntime": 22,
+   "cast": [
+    {
+     "name": "Steve Carell",
+     "character": "Michael Scott"
+    },
+    {
+     "name": "Rainn Wilson",
+     "character": "Dwight Schrute"
+    },
+    {
+     "name": "John Krasinski",
+     "character": "Jim Halpert"
+    },
+    {
+     "name": "Jenna Fischer",
+     "character": "Pam Beesly"
+    },
+    {
+     "name": "Mindy Kaling",
+     "character": "Kelly Kapoor"
+    }
+   ],
+   "seasons": [
+    {
+     "number": 1,
+     "name": "Season 1",
+     "airDate": "2005-03-24",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2005-03-24",
+       "rating": 7.7,
+       "voteCount": 356
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2005-03-31",
+       "rating": 7.6,
+       "voteCount": 465
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2005-04-07",
+       "rating": 7.7,
+       "voteCount": 531
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2005-04-14",
+       "rating": 7.6,
+       "voteCount": 521
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2005-04-21",
+       "rating": 7.9,
+       "voteCount": 395
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2005-04-28",
+       "rating": 8.0,
+       "voteCount": 374
+      }
+     ]
+    },
+    {
+     "number": 2,
+     "name": "Season 2",
+     "airDate": "2005-09-20",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2005-09-20",
+       "rating": 8.4,
+       "voteCount": 343
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2005-09-27",
+       "rating": 8.3,
+       "voteCount": 323
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2005-10-04",
+       "rating": 8.3,
+       "voteCount": 281
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2005-10-11",
+       "rating": 8.3,
+       "voteCount": 459
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2005-10-18",
+       "rating": 8.6,
+       "voteCount": 285
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2005-10-25",
+       "rating": 8.1,
+       "voteCount": 300
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2005-11-01",
+       "rating": 8.4,
+       "voteCount": 405
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2005-11-08",
+       "rating": 8.5,
+       "voteCount": 516
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2005-11-15",
+       "rating": 8.1,
+       "voteCount": 351
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2005-11-22",
+       "rating": 8.5,
+       "voteCount": 511
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2005-11-29",
+       "rating": 8.1,
+       "voteCount": 343
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2005-12-06",
+       "rating": 8.2,
+       "voteCount": 285
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2005-12-13",
+       "rating": 8.0,
+       "voteCount": 413
+      },
+      {
+       "number": 14,
+       "name": "Episode 14",
+       "airDate": "2005-12-20",
+       "rating": 8.5,
+       "voteCount": 435
+      },
+      {
+       "number": 15,
+       "name": "Episode 15",
+       "airDate": "2005-12-27",
+       "rating": 8.3,
+       "voteCount": 365
+      },
+      {
+       "number": 16,
+       "name": "Episode 16",
+       "airDate": "2006-01-03",
+       "rating": 8.2,
+       "voteCount": 416
+      },
+      {
+       "number": 17,
+       "name": "Episode 17",
+       "airDate": "2006-01-10",
+       "rating": 8.2,
+       "voteCount": 397
+      },
+      {
+       "number": 18,
+       "name": "Episode 18",
+       "airDate": "2006-01-17",
+       "rating": 8.5,
+       "voteCount": 379
+      },
+      {
+       "number": 19,
+       "name": "Episode 19",
+       "airDate": "2006-01-24",
+       "rating": 8.4,
+       "voteCount": 471
+      },
+      {
+       "number": 20,
+       "name": "Episode 20",
+       "airDate": "2006-01-31",
+       "rating": 8.2,
+       "voteCount": 347
+      },
+      {
+       "number": 21,
+       "name": "Episode 21",
+       "airDate": "2006-02-07",
+       "rating": 8.2,
+       "voteCount": 280
+      },
+      {
+       "number": 22,
+       "name": "Episode 22",
+       "airDate": "2006-02-14",
+       "rating": 9.2,
+       "voteCount": 518
+      }
+     ]
+    },
+    {
+     "number": 3,
+     "name": "Season 3",
+     "airDate": "2006-09-21",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2006-09-21",
+       "rating": 8.4,
+       "voteCount": 406
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2006-09-28",
+       "rating": 8.2,
+       "voteCount": 295
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2006-10-05",
+       "rating": 8.4,
+       "voteCount": 437
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2006-10-12",
+       "rating": 8.3,
+       "voteCount": 474
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2006-10-19",
+       "rating": 8.5,
+       "voteCount": 382
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2006-10-26",
+       "rating": 8.5,
+       "voteCount": 371
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2006-11-02",
+       "rating": 8.3,
+       "voteCount": 462
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2006-11-09",
+       "rating": 8.5,
+       "voteCount": 305
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2006-11-16",
+       "rating": 8.2,
+       "voteCount": 343
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2006-11-23",
+       "rating": 8.2,
+       "voteCount": 283
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2006-11-30",
+       "rating": 8.1,
+       "voteCount": 390
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2006-12-07",
+       "rating": 8.5,
+       "voteCount": 410
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2006-12-14",
+       "rating": 8.5,
+       "voteCount": 294
+      },
+      {
+       "number": 14,
+       "name": "Episode 14",
+       "airDate": "2006-12-21",
+       "rating": 8.3,
+       "voteCount": 291
+      },
+      {
+       "number": 15,
+       "name": "Episode 15",
+       "airDate": "2006-12-28",
+       "rating": 8.3,
+       "voteCount": 483
+      },
+      {
+       "number": 16,
+       "name": "Episode 16",
+       "airDate": "2007-01-04",
+       "rating": 8.4,
+       "voteCount": 384
+      },
+      {
+       "number": 17,
+       "name": "Episode 17",
+       "airDate": "2007-01-11",
+       "rating": 8.7,
+       "voteCount": 346
+      },
+      {
+       "number": 18,
+       "name": "Episode 18",
+       "airDate": "2007-01-18",
+       "rating": 8.4,
+       "voteCount": 297
+      },
+      {
+       "number": 19,
+       "name": "Episode 19",
+       "airDate": "2007-01-25",
+       "rating": 8.7,
+       "voteCount": 488
+      },
+      {
+       "number": 20,
+       "name": "Episode 20",
+       "airDate": "2007-02-01",
+       "rating": 8.2,
+       "voteCount": 433
+      },
+      {
+       "number": 21,
+       "name": "Episode 21",
+       "airDate": "2007-02-08",
+       "rating": 8.2,
+       "voteCount": 406
+      },
+      {
+       "number": 22,
+       "name": "Episode 22",
+       "airDate": "2007-02-15",
+       "rating": 8.7,
+       "voteCount": 313
+      },
+      {
+       "number": 23,
+       "name": "Episode 23",
+       "airDate": "2007-02-22",
+       "rating": 8.1,
+       "voteCount": 371
+      },
+      {
+       "number": 24,
+       "name": "Episode 24",
+       "airDate": "2007-03-01",
+       "rating": 8.4,
+       "voteCount": 358
+      },
+      {
+       "number": 25,
+       "name": "Episode 25",
+       "airDate": "2007-03-08",
+       "rating": 9.1,
+       "voteCount": 326
+      }
+     ]
+    },
+    {
+     "number": 4,
+     "name": "Season 4",
+     "airDate": "2007-09-27",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2007-09-27",
+       "rating": 8.9,
+       "voteCount": 370
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2007-10-04",
+       "rating": 8.5,
+       "voteCount": 254
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2007-10-11",
+       "rating": 8.4,
+       "voteCount": 407
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2007-10-18",
+       "rating": 8.4,
+       "voteCount": 291
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2007-10-25",
+       "rating": 8.6,
+       "voteCount": 314
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2007-11-01",
+       "rating": 8.4,
+       "voteCount": 425
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2007-11-08",
+       "rating": 8.3,
+       "voteCount": 361
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2007-11-15",
+       "rating": 8.2,
+       "voteCount": 333
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2007-11-22",
+       "rating": 8.2,
+       "voteCount": 412
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2007-11-29",
+       "rating": 8.2,
+       "voteCount": 429
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2007-12-06",
+       "rating": 8.2,
+       "voteCount": 253
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2007-12-13",
+       "rating": 8.7,
+       "voteCount": 398
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2007-12-20",
+       "rating": 8.2,
+       "voteCount": 268
+      },
+      {
+       "number": 14,
+       "name": "Episode 14",
+       "airDate": "2007-12-27",
+       "rating": 8.1,
+       "voteCount": 416
+      },
+      {
+       "number": 15,
+       "name": "Episode 15",
+       "airDate": "2008-01-03",
+       "rating": 8.7,
+       "voteCount": 309
+      },
+      {
+       "number": 16,
+       "name": "Episode 16",
+       "airDate": "2008-01-10",
+       "rating": 8.4,
+       "voteCount": 434
+      },
+      {
+       "number": 17,
+       "name": "Episode 17",
+       "airDate": "2008-01-17",
+       "rating": 8.4,
+       "voteCount": 273
+      },
+      {
+       "number": 18,
+       "name": "Episode 18",
+       "airDate": "2008-01-24",
+       "rating": 8.6,
+       "voteCount": 320
+      },
+      {
+       "number": 19,
+       "name": "Episode 19",
+       "airDate": "2008-01-31",
+       "rating": 8.9,
+       "voteCount": 375
+      }
+     ]
+    },
+    {
+     "number": 5,
+     "name": "Season 5",
+     "airDate": "2008-09-25",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2008-09-25",
+       "rating": 8.6,
+       "voteCount": 350
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2008-10-02",
+       "rating": 8.5,
+       "voteCount": 436
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2008-10-09",
+       "rating": 8.3,
+       "voteCount": 393
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2008-10-16",
+       "rating": 8.6,
+       "voteCount": 270
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2008-10-23",
+       "rating": 8.3,
+       "voteCount": 303
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2008-10-30",
+       "rating": 8.0,
+       "voteCount": 266
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2008-11-06",
+       "rating": 8.5,
+       "voteCount": 387
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2008-11-13",
+       "rating": 8.1,
+       "voteCount": 315
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2008-11-20",
+       "rating": 8.4,
+       "voteCount": 349
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2008-11-27",
+       "rating": 8.3,
+       "voteCount": 413
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2008-12-04",
+       "rating": 8.4,
+       "voteCount": 338
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2008-12-11",
+       "rating": 8.0,
+       "voteCount": 336
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2008-12-18",
+       "rating": 8.2,
+       "voteCount": 259
+      },
+      {
+       "number": 14,
+       "name": "Episode 14",
+       "airDate": "2008-12-25",
+       "rating": 9.3,
+       "voteCount": 433
+      },
+      {
+       "number": 15,
+       "name": "Episode 15",
+       "airDate": "2009-01-01",
+       "rating": 9.0,
+       "voteCount": 391
+      },
+      {
+       "number": 16,
+       "name": "Episode 16",
+       "airDate": "2009-01-08",
+       "rating": 8.0,
+       "voteCount": 424
+      },
+      {
+       "number": 17,
+       "name": "Episode 17",
+       "airDate": "2009-01-15",
+       "rating": 8.2,
+       "voteCount": 270
+      },
+      {
+       "number": 18,
+       "name": "Episode 18",
+       "airDate": "2009-01-22",
+       "rating": 8.2,
+       "voteCount": 356
+      },
+      {
+       "number": 19,
+       "name": "Episode 19",
+       "airDate": "2009-01-29",
+       "rating": 8.3,
+       "voteCount": 433
+      },
+      {
+       "number": 20,
+       "name": "Episode 20",
+       "airDate": "2009-02-05",
+       "rating": 8.4,
+       "voteCount": 357
+      },
+      {
+       "number": 21,
+       "name": "Episode 21",
+       "airDate": "2009-02-12",
+       "rating": 8.1,
+       "voteCount": 262
+      },
+      {
+       "number": 22,
+       "name": "Episode 22",
+       "airDate": "2009-02-19",
+       "rating": 8.5,
+       "voteCount": 362
+      },
+      {
+       "number": 23,
+       "name": "Episode 23",
+       "airDate": "2009-02-26",
+       "rating": 8.2,
+       "voteCount": 315
+      },
+      {
+       "number": 24,
+       "name": "Episode 24",
+       "airDate": "2009-03-05",
+       "rating": 8.2,
+       "voteCount": 255
+      },
+      {
+       "number": 25,
+       "name": "Episode 25",
+       "airDate": "2009-03-12",
+       "rating": 8.3,
+       "voteCount": 358
+      },
+      {
+       "number": 26,
+       "name": "Episode 26",
+       "airDate": "2009-03-19",
+       "rating": 8.1,
+       "voteCount": 421
+      },
+      {
+       "number": 27,
+       "name": "Episode 27",
+       "airDate": "2009-03-26",
+       "rating": 8.1,
+       "voteCount": 366
+      },
+      {
+       "number": 28,
+       "name": "Episode 28",
+       "airDate": "2009-04-02",
+       "rating": 8.4,
+       "voteCount": 255
+      }
+     ]
+    },
+    {
+     "number": 6,
+     "name": "Season 6",
+     "airDate": "2009-09-17",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2009-09-17",
+       "rating": 8.3,
+       "voteCount": 332
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2009-09-24",
+       "rating": 7.8,
+       "voteCount": 274
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2009-10-01",
+       "rating": 7.9,
+       "voteCount": 255
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2009-10-08",
+       "rating": 9.2,
+       "voteCount": 303
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2009-10-15",
+       "rating": 8.9,
+       "voteCount": 370
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2009-10-22",
+       "rating": 8.1,
+       "voteCount": 382
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2009-10-29",
+       "rating": 8.1,
+       "voteCount": 319
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2009-11-05",
+       "rating": 8.2,
+       "voteCount": 333
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2009-11-12",
+       "rating": 8.0,
+       "voteCount": 341
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2009-11-19",
+       "rating": 8.0,
+       "voteCount": 290
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2009-11-26",
+       "rating": 8.3,
+       "voteCount": 337
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2009-12-03",
+       "rating": 8.3,
+       "voteCount": 296
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2009-12-10",
+       "rating": 8.1,
+       "voteCount": 372
+      },
+      {
+       "number": 14,
+       "name": "Episode 14",
+       "airDate": "2009-12-17",
+       "rating": 8.1,
+       "voteCount": 264
+      },
+      {
+       "number": 15,
+       "name": "Episode 15",
+       "airDate": "2009-12-24",
+       "rating": 8.3,
+       "voteCount": 263
+      },
+      {
+       "number": 16,
+       "name": "Episode 16",
+       "airDate": "2009-12-31",
+       "rating": 7.8,
+       "voteCount": 298
+      },
+      {
+       "number": 17,
+       "name": "Episode 17",
+       "airDate": "2010-01-07",
+       "rating": 8.0,
+       "voteCount": 337
+      },
+      {
+       "number": 18,
+       "name": "Episode 18",
+       "airDate": "2010-01-14",
+       "rating": 8.1,
+       "voteCount": 223
+      },
+      {
+       "number": 19,
+       "name": "Episode 19",
+       "airDate": "2010-01-21",
+       "rating": 8.1,
+       "voteCount": 369
+      },
+      {
+       "number": 20,
+       "name": "Episode 20",
+       "airDate": "2010-01-28",
+       "rating": 7.9,
+       "voteCount": 237
+      },
+      {
+       "number": 21,
+       "name": "Episode 21",
+       "airDate": "2010-02-04",
+       "rating": 8.3,
+       "voteCount": 380
+      },
+      {
+       "number": 22,
+       "name": "Episode 22",
+       "airDate": "2010-02-11",
+       "rating": 7.8,
+       "voteCount": 389
+      },
+      {
+       "number": 23,
+       "name": "Episode 23",
+       "airDate": "2010-02-18",
+       "rating": 7.8,
+       "voteCount": 226
+      },
+      {
+       "number": 24,
+       "name": "Episode 24",
+       "airDate": "2010-02-25",
+       "rating": 8.2,
+       "voteCount": 263
+      },
+      {
+       "number": 25,
+       "name": "Episode 25",
+       "airDate": "2010-03-04",
+       "rating": 8.2,
+       "voteCount": 351
+      },
+      {
+       "number": 26,
+       "name": "Episode 26",
+       "airDate": "2010-03-11",
+       "rating": 8.5,
+       "voteCount": 354
+      }
+     ]
+    },
+    {
+     "number": 7,
+     "name": "Season 7",
+     "airDate": "2010-09-23",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2010-09-23",
+       "rating": 8.5,
+       "voteCount": 366
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2010-09-30",
+       "rating": 7.9,
+       "voteCount": 251
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2010-10-07",
+       "rating": 8.5,
+       "voteCount": 239
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2010-10-14",
+       "rating": 8.1,
+       "voteCount": 224
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2010-10-21",
+       "rating": 8.3,
+       "voteCount": 313
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2010-10-28",
+       "rating": 8.4,
+       "voteCount": 262
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2010-11-04",
+       "rating": 8.0,
+       "voteCount": 247
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2010-11-11",
+       "rating": 8.2,
+       "voteCount": 403
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2010-11-18",
+       "rating": 8.0,
+       "voteCount": 384
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2010-11-25",
+       "rating": 8.3,
+       "voteCount": 330
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2010-12-02",
+       "rating": 8.1,
+       "voteCount": 338
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2010-12-09",
+       "rating": 8.2,
+       "voteCount": 313
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2010-12-16",
+       "rating": 8.1,
+       "voteCount": 332
+      },
+      {
+       "number": 14,
+       "name": "Episode 14",
+       "airDate": "2010-12-23",
+       "rating": 8.3,
+       "voteCount": 320
+      },
+      {
+       "number": 15,
+       "name": "Episode 15",
+       "airDate": "2010-12-30",
+       "rating": 8.4,
+       "voteCount": 306
+      },
+      {
+       "number": 16,
+       "name": "Episode 16",
+       "airDate": "2011-01-06",
+       "rating": 8.0,
+       "voteCount": 286
+      },
+      {
+       "number": 17,
+       "name": "Episode 17",
+       "airDate": "2011-01-13",
+       "rating": 8.3,
+       "voteCount": 313
+      },
+      {
+       "number": 18,
+       "name": "Episode 18",
+       "airDate": "2011-01-20",
+       "rating": 8.0,
+       "voteCount": 391
+      },
+      {
+       "number": 19,
+       "name": "Episode 19",
+       "airDate": "2011-01-27",
+       "rating": 8.3,
+       "voteCount": 349
+      },
+      {
+       "number": 20,
+       "name": "Episode 20",
+       "airDate": "2011-02-03",
+       "rating": 8.2,
+       "voteCount": 298
+      },
+      {
+       "number": 21,
+       "name": "Episode 21",
+       "airDate": "2011-02-10",
+       "rating": 8.8,
+       "voteCount": 388
+      },
+      {
+       "number": 22,
+       "name": "Goodbye, Michael",
+       "airDate": "2011-02-17",
+       "rating": 9.6,
+       "voteCount": 387
+      },
+      {
+       "number": 23,
+       "name": "Episode 23",
+       "airDate": "2011-02-24",
+       "rating": 8.3,
+       "voteCount": 364
+      },
+      {
+       "number": 24,
+       "name": "Episode 24",
+       "airDate": "2011-03-03",
+       "rating": 8.0,
+       "voteCount": 295
+      },
+      {
+       "number": 25,
+       "name": "Episode 25",
+       "airDate": "2011-03-10",
+       "rating": 8.4,
+       "voteCount": 392
+      },
+      {
+       "number": 26,
+       "name": "Episode 26",
+       "airDate": "2011-03-17",
+       "rating": 8.4,
+       "voteCount": 256
+      }
+     ]
+    },
+    {
+     "number": 8,
+     "name": "Season 8",
+     "airDate": "2011-09-22",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2011-09-22",
+       "rating": 7.3,
+       "voteCount": 244
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2011-09-29",
+       "rating": 7.0,
+       "voteCount": 193
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2011-10-06",
+       "rating": 7.4,
+       "voteCount": 216
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2011-10-13",
+       "rating": 7.5,
+       "voteCount": 272
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2011-10-20",
+       "rating": 7.0,
+       "voteCount": 221
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2011-10-27",
+       "rating": 7.2,
+       "voteCount": 231
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2011-11-03",
+       "rating": 6.9,
+       "voteCount": 194
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2011-11-10",
+       "rating": 7.2,
+       "voteCount": 293
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2011-11-17",
+       "rating": 7.3,
+       "voteCount": 215
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2011-11-24",
+       "rating": 7.2,
+       "voteCount": 300
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2011-12-01",
+       "rating": 7.3,
+       "voteCount": 303
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2011-12-08",
+       "rating": 7.5,
+       "voteCount": 203
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2011-12-15",
+       "rating": 7.3,
+       "voteCount": 200
+      },
+      {
+       "number": 14,
+       "name": "Episode 14",
+       "airDate": "2011-12-22",
+       "rating": 7.3,
+       "voteCount": 301
+      },
+      {
+       "number": 15,
+       "name": "Episode 15",
+       "airDate": "2011-12-29",
+       "rating": 7.2,
+       "voteCount": 299
+      },
+      {
+       "number": 16,
+       "name": "Episode 16",
+       "airDate": "2012-01-05",
+       "rating": 7.5,
+       "voteCount": 251
+      },
+      {
+       "number": 17,
+       "name": "Episode 17",
+       "airDate": "2012-01-12",
+       "rating": 7.1,
+       "voteCount": 315
+      },
+      {
+       "number": 18,
+       "name": "Episode 18",
+       "airDate": "2012-01-19",
+       "rating": 7.5,
+       "voteCount": 241
+      },
+      {
+       "number": 19,
+       "name": "Episode 19",
+       "airDate": "2012-01-26",
+       "rating": 7.5,
+       "voteCount": 299
+      },
+      {
+       "number": 20,
+       "name": "Episode 20",
+       "airDate": "2012-02-02",
+       "rating": 6.8,
+       "voteCount": 272
+      },
+      {
+       "number": 21,
+       "name": "Episode 21",
+       "airDate": "2012-02-09",
+       "rating": 7.6,
+       "voteCount": 230
+      },
+      {
+       "number": 22,
+       "name": "Episode 22",
+       "airDate": "2012-02-16",
+       "rating": 7.5,
+       "voteCount": 221
+      },
+      {
+       "number": 23,
+       "name": "Episode 23",
+       "airDate": "2012-02-23",
+       "rating": 7.1,
+       "voteCount": 197
+      },
+      {
+       "number": 24,
+       "name": "Episode 24",
+       "airDate": "2012-03-01",
+       "rating": 7.6,
+       "voteCount": 271
+      }
+     ]
+    },
+    {
+     "number": 9,
+     "name": "Season 9",
+     "airDate": "2012-09-20",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2012-09-20",
+       "rating": 7.6,
+       "voteCount": 341
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2012-09-27",
+       "rating": 7.9,
+       "voteCount": 365
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2012-10-04",
+       "rating": 7.6,
+       "voteCount": 269
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2012-10-11",
+       "rating": 8.0,
+       "voteCount": 231
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2012-10-18",
+       "rating": 7.5,
+       "voteCount": 383
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2012-10-25",
+       "rating": 7.7,
+       "voteCount": 327
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2012-11-01",
+       "rating": 7.8,
+       "voteCount": 308
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2012-11-08",
+       "rating": 7.7,
+       "voteCount": 269
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2012-11-15",
+       "rating": 7.7,
+       "voteCount": 389
+      },
+      {
+       "number": 10,
+       "name": "Episode 10",
+       "airDate": "2012-11-22",
+       "rating": 7.5,
+       "voteCount": 231
+      },
+      {
+       "number": 11,
+       "name": "Episode 11",
+       "airDate": "2012-11-29",
+       "rating": 7.4,
+       "voteCount": 275
+      },
+      {
+       "number": 12,
+       "name": "Episode 12",
+       "airDate": "2012-12-06",
+       "rating": 7.4,
+       "voteCount": 219
+      },
+      {
+       "number": 13,
+       "name": "Episode 13",
+       "airDate": "2012-12-13",
+       "rating": 7.9,
+       "voteCount": 294
+      },
+      {
+       "number": 14,
+       "name": "Episode 14",
+       "airDate": "2012-12-20",
+       "rating": 7.6,
+       "voteCount": 374
+      },
+      {
+       "number": 15,
+       "name": "Episode 15",
+       "airDate": "2012-12-27",
+       "rating": 7.6,
+       "voteCount": 230
+      },
+      {
+       "number": 16,
+       "name": "Episode 16",
+       "airDate": "2013-01-03",
+       "rating": 7.4,
+       "voteCount": 257
+      },
+      {
+       "number": 17,
+       "name": "Episode 17",
+       "airDate": "2013-01-10",
+       "rating": 7.4,
+       "voteCount": 353
+      },
+      {
+       "number": 18,
+       "name": "Episode 18",
+       "airDate": "2013-01-17",
+       "rating": 7.8,
+       "voteCount": 344
+      },
+      {
+       "number": 19,
+       "name": "Episode 19",
+       "airDate": "2013-01-24",
+       "rating": 7.4,
+       "voteCount": 331
+      },
+      {
+       "number": 20,
+       "name": "Episode 20",
+       "airDate": "2013-01-31",
+       "rating": 7.8,
+       "voteCount": 269
+      },
+      {
+       "number": 21,
+       "name": "Episode 21",
+       "airDate": "2013-02-07",
+       "rating": 7.6,
+       "voteCount": 262
+      },
+      {
+       "number": 22,
+       "name": "Episode 22",
+       "airDate": "2013-02-14",
+       "rating": 7.9,
+       "voteCount": 248
+      },
+      {
+       "number": 23,
+       "name": "Episode 23",
+       "airDate": "2013-02-21",
+       "rating": 8.9,
+       "voteCount": 328
+      },
+      {
+       "number": 24,
+       "name": "Episode 24",
+       "airDate": "2013-02-28",
+       "rating": 9.0,
+       "voteCount": 382
+      },
+      {
+       "number": 25,
+       "name": "Finale",
+       "airDate": "2013-03-07",
+       "rating": 9.6,
+       "voteCount": 386
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 66732,
+   "name": "Stranger Things",
+   "firstAirDate": "2016-07-15",
+   "lastAirDate": "2025-12-31",
+   "status": "Ended",
+   "rating": 8.6,
+   "voteCount": 18900,
+   "popular": true,
+   "tagline": "Every ending has a beginning.",
+   "overview": "A boy vanishes from a small Indiana town, and his friends, family and the local police chief uncover a government lab, a girl with strange powers and a world beneath their own.",
+   "genres": [
+    "Drama",
+    "Sci-Fi & Fantasy",
+    "Mystery"
+   ],
+   "creators": [
+    "Matt Duffer",
+    "Ross Duffer"
+   ],
+   "networks": [
+    "Netflix"
+   ],
+   "episodeRuntime": 55,
+   "cast": [
+    {
+     "name": "Millie Bobby Brown",
+     "character": "Eleven"
+    },
+    {
+     "name": "Finn Wolfhard",
+     "character": "Mike Wheeler"
+    },
+    {
+     "name": "Winona Ryder",
+     "character": "Joyce Byers"
+    },
+    {
+     "name": "David Harbour",
+     "character": "Jim Hopper"
+    },
+    {
+     "name": "Sadie Sink",
+     "character": "Max Mayfield"
+    }
+   ],
+   "seasons": [
+    {
+     "number": 1,
+     "name": "Season 1",
+     "airDate": "2016-07-15",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2016-07-15",
+       "rating": 8.4,
+       "voteCount": 1388
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2016-07-15",
+       "rating": 8.4,
+       "voteCount": 1684
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2016-07-15",
+       "rating": 8.7,
+       "voteCount": 1480
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2016-07-15",
+       "rating": 8.3,
+       "voteCount": 1170
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2016-07-15",
+       "rating": 8.6,
+       "voteCount": 1368
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2016-07-15",
+       "rating": 8.5,
+       "voteCount": 1767
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2016-07-15",
+       "rating": 8.5,
+       "voteCount": 1725
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2016-07-15",
+       "rating": 9.0,
+       "voteCount": 1256
+      }
+     ]
+    },
+    {
+     "number": 2,
+     "name": "Season 2",
+     "airDate": "2017-10-27",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2017-10-27",
+       "rating": 8.5,
+       "voteCount": 1397
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2017-10-27",
+       "rating": 8.4,
+       "voteCount": 1460
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2017-10-27",
+       "rating": 8.0,
+       "voteCount": 951
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2017-10-27",
+       "rating": 8.4,
+       "voteCount": 843
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2017-10-27",
+       "rating": 8.4,
+       "voteCount": 840
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2017-10-27",
+       "rating": 8.4,
+       "voteCount": 1538
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2017-10-27",
+       "rating": 6.3,
+       "voteCount": 1202
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2017-10-27",
+       "rating": 8.3,
+       "voteCount": 1356
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2017-10-27",
+       "rating": 9.1,
+       "voteCount": 1376
+      }
+     ]
+    },
+    {
+     "number": 3,
+     "name": "Season 3",
+     "airDate": "2019-07-04",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2019-07-04",
+       "rating": 8.6,
+       "voteCount": 1399
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2019-07-04",
+       "rating": 8.4,
+       "voteCount": 869
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2019-07-04",
+       "rating": 8.5,
+       "voteCount": 922
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2019-07-04",
+       "rating": 8.4,
+       "voteCount": 1188
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2019-07-04",
+       "rating": 8.6,
+       "voteCount": 1161
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2019-07-04",
+       "rating": 8.6,
+       "voteCount": 1301
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2019-07-04",
+       "rating": 8.4,
+       "voteCount": 1187
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2019-07-04",
+       "rating": 9.0,
+       "voteCount": 1108
+      }
+     ]
+    },
+    {
+     "number": 4,
+     "name": "Season 4",
+     "airDate": "2022-05-27",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2022-05-27",
+       "rating": 8.5,
+       "voteCount": 1488
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2022-05-27",
+       "rating": 8.8,
+       "voteCount": 1160
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2022-05-27",
+       "rating": 8.6,
+       "voteCount": 928
+      },
+      {
+       "number": 4,
+       "name": "Dear Billy",
+       "airDate": "2022-05-27",
+       "rating": 9.4,
+       "voteCount": 1084
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2022-05-27",
+       "rating": 8.5,
+       "voteCount": 1090
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2022-05-27",
+       "rating": 8.3,
+       "voteCount": 1433
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2022-05-27",
+       "rating": 9.0,
+       "voteCount": 953
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2022-05-27",
+       "rating": 8.8,
+       "voteCount": 1023
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2022-05-27",
+       "rating": 9.3,
+       "voteCount": 1687
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 95396,
+   "name": "Severance",
+   "firstAirDate": "2022-02-18",
+   "lastAirDate": "2025-03-21",
+   "status": "Returning Series",
+   "rating": 8.5,
+   "voteCount": 4880,
+   "popular": true,
+   "tagline": "Your outie is well.",
+   "overview": "Employees at a secretive corporation undergo a procedure that splits their work memories from their home lives, until one team starts asking what they actually do all day.",
+   "genres": [
+    "Drama",
+    "Mystery",
+    "Sci-Fi & Fantasy"
+   ],
+   "creators": [
+    "Dan Erickson"
+   ],
+   "networks": [
+    "Apple TV+"
+   ],
+   "episodeRuntime": 50,
+   "cast": [
+    {
+     "name": "Adam Scott",
+     "character": "Mark Scout"
+    },
+    {
+     "name": "Britt Lower",
+     "character": "Helly R."
+    },
+    {
+     "name": "Zach Cherry",
+     "character": "Dylan G."
+    },
+    {
+     "name": "John Turturro",
+     "character": "Irving B."
+    },
+    {
+     "name": "Tramell Tillman",
+     "character": "Seth Milchick"
+    },
+    {
+     "name": "Patricia Arquette",
+     "character": "Harmony Cobel"
+    }
+   ],
+   "seasons": [
+    {
+     "number": 1,
+     "name": "Season 1",
+     "airDate": "2022-02-18",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2022-02-18",
+       "rating": 8.7,
+       "voteCount": 595
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2022-02-25",
+       "rating": 8.4,
+       "voteCount": 813
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2022-03-04",
+       "rating": 8.4,
+       "voteCount": 791
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2022-03-11",
+       "rating": 8.6,
+       "voteCount": 746
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2022-03-18",
+       "rating": 8.3,
+       "voteCount": 794
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2022-03-25",
+       "rating": 8.2,
+       "voteCount": 550
+      },
+      {
+       "number": 7,
+       "name": "Episode 7",
+       "airDate": "2022-04-01",
+       "rating": 8.2,
+       "voteCount": 689
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2022-04-08",
+       "rating": 8.9,
+       "voteCount": 845
+      },
+      {
+       "number": 9,
+       "name": "The We We Are",
+       "airDate": "2022-04-15",
+       "rating": 9.6,
+       "voteCount": 537
+      }
+     ]
+    },
+    {
+     "number": 2,
+     "name": "Season 2",
+     "airDate": "2025-01-17",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2025-01-17",
+       "rating": 8.4,
+       "voteCount": 520
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2025-01-24",
+       "rating": 8.7,
+       "voteCount": 468
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2025-01-31",
+       "rating": 8.6,
+       "voteCount": 571
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2025-02-07",
+       "rating": 8.6,
+       "voteCount": 581
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2025-02-14",
+       "rating": 8.7,
+       "voteCount": 455
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2025-02-21",
+       "rating": 8.7,
+       "voteCount": 838
+      },
+      {
+       "number": 7,
+       "name": "Chikhai Bardo",
+       "airDate": "2025-02-28",
+       "rating": 9.1,
+       "voteCount": 609
+      },
+      {
+       "number": 8,
+       "name": "Episode 8",
+       "airDate": "2025-03-07",
+       "rating": 8.1,
+       "voteCount": 493
+      },
+      {
+       "number": 9,
+       "name": "Episode 9",
+       "airDate": "2025-03-14",
+       "rating": 8.8,
+       "voteCount": 532
+      },
+      {
+       "number": 10,
+       "name": "Cold Harbor",
+       "airDate": "2025-03-21",
+       "rating": 9.5,
+       "voteCount": 824
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 67070,
+   "name": "Fleabag",
+   "firstAirDate": "2016-07-21",
+   "lastAirDate": "2019-04-08",
+   "status": "Ended",
+   "rating": 8.3,
+   "voteCount": 1560,
+   "overview": "A grieving, sharp-tongued Londoner narrates her own life straight to camera while trying to keep a café, a family and a string of bad decisions from falling apart.",
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "creators": [
+    "Phoebe Waller-Bridge"
+   ],
+   "networks": [
+    "BBC Three",
+    "Prime Video"
+   ],
+   "episodeRuntime": 27,
+   "cast": [
+    {
+     "name": "Phoebe Waller-Bridge",
+     "character": "Fleabag"
+    },
+    {
+     "name": "Sian Clifford",
+     "character": "Claire"
+    },
+    {
+     "name": "Olivia Colman",
+     "character": "Godmother"
+    },
+    {
+     "name": "Andrew Scott",
+     "character": "The Priest"
+    }
+   ],
+   "seasons": [
+    {
+     "number": 1,
+     "name": "Season 1",
+     "airDate": "2016-07-21",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2016-07-21",
+       "rating": 8.2,
+       "voteCount": 270
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2016-07-28",
+       "rating": 7.9,
+       "voteCount": 282
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2016-08-04",
+       "rating": 7.9,
+       "voteCount": 301
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2016-08-11",
+       "rating": 8.3,
+       "voteCount": 229
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2016-08-18",
+       "rating": 7.8,
+       "voteCount": 254
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2016-08-25",
+       "rating": 8.8,
+       "voteCount": 238
+      }
+     ]
+    },
+    {
+     "number": 2,
+     "name": "Season 2",
+     "airDate": "2019-03-04",
+     "episodes": [
+      {
+       "number": 1,
+       "name": "Episode 1",
+       "airDate": "2019-03-04",
+       "rating": 9.1,
+       "voteCount": 333
+      },
+      {
+       "number": 2,
+       "name": "Episode 2",
+       "airDate": "2019-03-11",
+       "rating": 8.7,
+       "voteCount": 361
+      },
+      {
+       "number": 3,
+       "name": "Episode 3",
+       "airDate": "2019-03-18",
+       "rating": 8.7,
+       "voteCount": 273
+      },
+      {
+       "number": 4,
+       "name": "Episode 4",
+       "airDate": "2019-03-25",
+       "rating": 8.8,
+       "voteCount": 282
+      },
+      {
+       "number": 5,
+       "name": "Episode 5",
+       "airDate": "2019-04-01",
+       "rating": 8.5,
+       "voteCount": 251
+      },
+      {
+       "number": 6,
+       "name": "Episode 6",
+       "airDate": "2019-04-08",
+       "rating": 9.5,
+       "voteCount": 415
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
