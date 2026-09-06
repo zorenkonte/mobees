@@ -4,25 +4,76 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Rating bars, echoing the series graph -->
+
+    <!-- Wings -->
+    <group
+        android:pivotX="0"
+        android:pivotY="0"
+        android:rotation="-28"
+        android:translateX="44"
+        android:translateY="41">
+        <path
+            android:fillColor="#D9FFFFFF"
+            android:pathData="M-12,0 a12,7.5 0 1,0 24,0 a12,7.5 0 1,0 -24,0 Z" />
+    </group>
+    <group
+        android:pivotX="0"
+        android:pivotY="0"
+        android:rotation="12"
+        android:translateX="60"
+        android:translateY="39">
+        <path
+            android:fillColor="#B3FFFFFF"
+            android:pathData="M-11,0 a11,6.5 0 1,0 22,0 a11,6.5 0 1,0 -22,0 Z" />
+    </group>
+
+    <!-- Stinger -->
     <path
         android:fillColor="#F5C518"
-        android:pathData="M30,66h8v14h-8z" />
+        android:pathData="M33,58 L23,55 L23,61 Z" />
+
+    <!-- Body -->
     <path
         android:fillColor="#F5C518"
-        android:pathData="M42,54h8v26h-8z" />
+        android:pathData="M31,58 a19,14 0 1,0 38,0 a19,14 0 1,0 -38,0 Z" />
+
+    <!-- Stripes, clipped to the body -->
+    <group>
+        <clip-path android:pathData="M31,58 a19,14 0 1,0 38,0 a19,14 0 1,0 -38,0 Z" />
+        <path
+            android:fillColor="#1B1400"
+            android:pathData="M42,40 h6 v36 h-6 z" />
+        <path
+            android:fillColor="#1B1400"
+            android:pathData="M54,40 h6 v36 h-6 z" />
+    </group>
+
+    <!-- Head -->
     <path
-        android:fillColor="#F5C518"
-        android:pathData="M54,44h8v36h-8z" />
+        android:fillColor="#1B1400"
+        android:pathData="M66,58 a8.5,8.5 0 1,0 17,0 a8.5,8.5 0 1,0 -17,0 Z" />
+    <!-- Eye -->
     <path
-        android:fillColor="#F5C518"
-        android:pathData="M66,34h8v46h-8z" />
-    <!-- Trend line -->
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,55.5 a1.9,1.9 0 1,0 3.8,0 a1.9,1.9 0 1,0 -3.8,0 Z" />
+
+    <!-- Antennae -->
     <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="3"
+        android:strokeColor="#F5C518"
+        android:strokeWidth="2.2"
         android:strokeLineCap="round"
-        android:strokeLineJoin="round"
         android:fillColor="#00000000"
-        android:pathData="M30,60 L46,50 L58,40 L74,28" />
+        android:pathData="M72,51 Q69,43 63,41" />
+    <path
+        android:strokeColor="#F5C518"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M78,50 Q80,42 86,40" />
+    <path
+        android:fillColor="#F5C518"
+        android:pathData="M60.8,41 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z" />
+    <path
+        android:fillColor="#F5C518"
+        android:pathData="M83.8,40 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 Z" />
 </vector>
